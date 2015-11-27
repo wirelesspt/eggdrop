@@ -1,10 +1,10 @@
 # Simple eggdrop wiki search for wirelesspt.net
 
 # Download:
-wget -P /path/to/eggdrop/scripts/ https://url_for_this_script/wirelesspt_wiki.tcl
+wget --no-check-certificate -P path/to/eggdrop/scripts/ https://raw.githubusercontent.com/wirelesspt/eggdrop/master/wirelesspt_wiki.tcl
 
 # Setup in your eggdrop
-echo source scripts/userinfo.tcl >> /path/to/eggdrop/scripts/eggdrop.conf
+echo source scripts/wirelesspt_wiki.tcl >> /path/to/eggdrop/scripts/eggdrop.conf
 
 # Read script for description and usage 
 # Restart or rehash your eggdrop
