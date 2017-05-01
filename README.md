@@ -8,3 +8,6 @@ echo source scripts/wirelesspt_wiki.tcl >> path/to/eggdrop/scripts/eggdrop.conf
 
 # Read script for description and usage 
 # Restart or rehash your eggdrop
+
+# Before using the eggdrop in the network
+Read network /botmod
